@@ -1,0 +1,55 @@
+body {
+background-color: rgb(153, 147, 233);
+font-family: 'Times New Roman' , Times, serif;
+}
+h1{
+text-align: center;
+}
+
+.img-div{
+border: 2px solid rgb(166, 114, 233); width: 340px; padding: 5px;
+border-radius: 15px; float: left; text-align: center; height: 340px;
+}
+
+.zoom{
+    width: 240px; height: 200px; border-radius: 15px; overflow: hidden
+}
+body{
+    background-color: rgb(163, 147, 233);
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    text-align: center;
+}
+.img-div{
+    border: 2px solid rgb(166, 114, 233); width: 340px; padding: 5px;
+    border-radius: 15px; float: left; text-align: center; height: 300px;
+}
+.zoom{
+    width: 300px; height: 300px; border-radius: 15px; overflow: hidden
+}
+
+.zoom img{
+    max-width: 100%;
+    height: 100%; transition: all 0.5s; padding: 2px; cursor: pointer;
+}
+
+.zoom:hover img{
+    transform: scale3d(1.4, 1.4, 1.4); border-radius: 15px;
+}
+desc{
+    padding: 15px;
+}
+p{
+    text-decoration: rgb(214, 184, 107); text-align: center; font-size: 30px;
+}
+.zoom.zoom:hover{
+    box-shadow: 0 0 15px grey
+}
+desc{
+    padding: 15px;
+}
+p{
+    text-decoration: rgb(214, 184, 107); text-align: center; font-size: 30px;
+    color: rgb(80, 118, 145);
+}
