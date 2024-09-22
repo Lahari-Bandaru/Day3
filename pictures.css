@@ -1,28 +1,81 @@
-body {
-background-color: rgb(153, 147, 233);
-font-family: 'Times New Roman' , Times, serif;
+*{
+    background-color: rgb(22, 88, 88);
+}
+
+.background{
+    background-image: url(https://i0.wp.com/wallpapercave.com/wp/wp7455827.jpg?resize=650,400);
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    height: 700px;
+  }
+
+.button{
+    
+    background: rgb(26, 34, 52);
+    color: white;
+    padding: 20px 50px;                   
+    text-align: center;
+    line-height: 40px;
+    border-radius: 40px;
+    margin: 10px 0px;
+    /* box-shadow: 0px 0px 5px rgba(0,0,0,0.3); */
+    background-color:rgb(26, 34, 52) ;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    filter: drop-shadow(0px 0px 12px rgb(4, 53, 51));
+    }
+
+.contianer img{
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgba(255,255,255,0.6);
+    transition: all ease-in-out 0.5s;
+}
+
+.container img:hover{
+    width: 25%;
 }
 h1{
 text-align: center;
 }
 
 .img-div{
-border: 2px solid rgb(166, 114, 233); width: 440px; padding: 5px;
-border-radius: 15px; float: left; text-align: center; height: 420px;
+border: 2px solid rgb(166, 114, 233);
+width: 420px;
+padding: 5px;
+border-radius: 15px;
+float: left;
+text-align: center;
+height: 400px;
 }
 
 .zoom{
-    width: 420px; height: 400px; border-radius: 15px; overflow: hidden
+    width: 420px; 
+    height: 400px; 
+    border-radius: 15px; 
+    overflow: hidden
 }
 
 .zoom img{
     max-width: 100%;
-    height: 100%; transition: all 0.5s; padding: 3px; cursor: pointer;
+    height: 100%; 
+    transition: all 0.5s; 
+    padding: 3px; 
+    cursor: pointer;
 }
 
 .zoom:hover img{
-    transform: scale3d(1.4, 1.4, 1.4); border-radius: 15px;
+    transform: scale3d(1.4, 1.4, 1.4); 
+    border-radius: 15px;
 }
+
 desc{
     padding: 95px;
 }
@@ -30,6 +83,7 @@ desc{
 .zoom.zoom:hover{
     box-shadow: 0 0 15px grey
 }
+
 desc{
     padding: 15px;
 }
